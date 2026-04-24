@@ -9,6 +9,8 @@ public class day1 {
 	@Test
 	public void start() {
 		System.out.println("This call is from test method ");
+		System.out.println("Git demo2 ");
+		System.out.println("Git demo3 ");
 	}
 
 	@BeforeTest()
