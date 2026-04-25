@@ -12,16 +12,22 @@ public class day1 {
 		System.out.println("Git demo2 ");
 		System.out.println("Git demo3 ");
 	}
-
+	
+	@Test
+	public void gitdemo() 
+	{
+		System.out.println("Git demo on 25Apr 2026");
+	}
 	@BeforeTest()
 	public void bt() {
 		System.out.println("This call is from the before test execution method");
-
+		System.out.println("Git demo on 25April2026");
 	}
 
 	@AfterTest()
 	public void at() {
 		System.out.println("This call is from the After test method");
+		System.out.println("Git demo on 25April2026");
 	}
 
 }
